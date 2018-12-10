@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_gravity="left"
+    >
+
+
+    <TextView
+        android:id="@+id/res_sno"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="S.No"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/res_date"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:ellipsize="end"-->
+    <!--android:gravity="left"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="dd/mm/yy"-->
+    <!--android:textColor="@color/colorPrimary"-->
+    <!--android:textSize="14sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/res_product"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:ellipsize="end"-->
+    <!--android:gravity="center"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="product"-->
+    <!--android:textColor="@color/blueDark"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/res_price_name"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:ellipsize="end"-->
+    <!--android:gravity="left"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="first"-->
+    <!--android:textColor="@color/colorPrimary"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/res_price_value"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:ellipsize="end"-->
+    <!--android:gravity="center"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="123456"-->
+    <!--android:textColor="@color/greenLight"-->
+    <!--android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/res_price_number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:singleLine="true"
+        android:text="ABC 123"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+</LinearLayout>

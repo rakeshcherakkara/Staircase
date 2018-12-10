@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="314dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultReportButton"
+        app:layout_constraintVertical_bias="0.1">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/firstPrice"
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/firstPriceValue"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/console2Price"
+
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/console2Value"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/console1Price"
+
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/console1Value"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/secondPrice"
+
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/secondPriceValue"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/thirdPrice"
+
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/thirdPriceValue"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/fourthPrice"
+
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/fourthPriceValue"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/fifthPrice"
+
+                android:layout_span="4" />
+
+            <TextView
+                android:id="@+id/fifthPriceValue"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/sixthPriceHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:id="@+id/p1" />
+
+            <TextView android:id="@+id/p2" />
+
+            <TextView
+
+                android:id="@+id/p3" />
+
+            <TextView
+
+                android:id="@+id/p4" />
+
+            <TextView
+
+                android:id="@+id/p5" />
+
+            <TextView
+
+                android:id="@+id/p6" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:id="@+id/p7" />
+
+            <TextView android:id="@+id/p8" />
+
+            <TextView android:id="@+id/p9" />
+
+            <TextView android:id="@+id/p10" />
+
+            <TextView android:id="@+id/p11" />
+
+            <TextView android:id="@+id/p12" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:id="@+id/p13" />
+
+            <TextView android:id="@+id/p14" />
+
+            <TextView android:id="@+id/p15" />
+
+            <TextView android:id="@+id/p16" />
+
+            <TextView android:id="@+id/p17" />
+
+            <TextView android:id="@+id/p18" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:id="@+id/p19" />
+
+            <TextView android:id="@+id/p20" />
+
+            <TextView
+
+                android:id="@+id/p21" />
+
+            <TextView android:id="@+id/p22" />
+
+            <TextView
+
+                android:id="@+id/p23" />
+
+            <TextView
+
+                android:id="@+id/p24" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:id="@+id/p25" />
+
+            <TextView android:id="@+id/p26" />
+
+            <TextView android:id="@+id/p27" />
+
+            <TextView android:id="@+id/p28" />
+
+            <TextView android:id="@+id/p29" />
+
+            <TextView android:id="@+id/p30" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Spinner
+        android:id="@+id/productSpinnerResult"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resultReportButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="GENERATE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productSpinnerResult" />
+
+    <EditText
+        android:id="@+id/resultDate"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_broder"
+        android:focusable="false"
+        android:inputType="date"
+        android:text="dd-mm-yyyy"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/resultReportButton"
+        app:layout_constraintEnd_toStartOf="@+id/productSpinnerResult"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

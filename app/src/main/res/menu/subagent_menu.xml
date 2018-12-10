@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/dashboard_id"
+            android:title="@string/subagent_dashboard"
+            >
+
+        </item>
+        <item
+            android:id="@+id/subagent_sale_id"
+            android:title="@string/subagent_sale"
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/subagent_salereport_id"
+            android:title="@string/subagent_sale_report"
+            >
+            
+        </item>
+
+        <item
+            android:id="@+id/subagent_amountwise_id"
+            android:title="@string/amountwise_report"
+            >
+        </item>
+
+        <item
+            android:id="@+id/subagent_winners_report_id"
+            android:title="@string/winners_report"
+            >
+        </item>
+
+        <item
+            android:id="@+id/result_report_id"
+            android:title="@string/result_report"
+            >
+        </item>
+
+        <item
+            android:id="@+id/logout_id"
+            android:title="@string/logout"
+            >
+        </item>
+
+    </group>
+
+</menu>
