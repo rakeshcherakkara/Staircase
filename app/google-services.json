@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678246688298",
+    "firebase_url": "https://myproject2-bc2a3.firebaseio.com",
+    "project_id": "myproject2-bc2a3",
+    "storage_bucket": "myproject2-bc2a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678246688298:android:27aa17cda974c450",
+        "android_client_info": {
+          "package_name": "pqr.com.staircase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678246688298-43jo6nvnt25h7mpqsa79gq1vcun1kc3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzYVB7WDssWk2AxcvQz3vU-g1aL1XAN9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Staircase</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="sale_block">Your Sale Is Blocked,Contact Admin.</string>
+    <string name="block">App Is Blocked, Contact Admin.</string>
+    <string name="subagent_dashboard">Dashboard</string>
+    <string name="agent_dashboard">Dashboard</string>
+    <string name="sale_report">Sale Report</string>
+    <string name="amountwise_report">Amountwise Report</string>
+    <string name="winners_report">Winners Report</string>
+    <string name="result_report">Result Report</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+
+    <string name="agent_sale_report">Agent Sale Report</string>
+    <string name="agent_sale">Agent Sale </string>
+    <string name="subagent_sale_report">Subagent Sale Report</string>
+    <string name="subagent_sale">Subagent Sale </string>
+
+
+    <string-array name="header0">
+        <item>ABCD</item>
+        <item>1234</item>
+        <item>123456789.9</item>
+        <item>123456789.9</item>
+        <item>(12/12 - 12/18)</item>
+    </string-array>
+
+    <string-array name="header1">
+        <item>DCBA</item>
+        <item>4321</item>
+        <item>123456789.9</item>
+        <item>123456789.9</item>
+        <item>(12/18 - 12/12)</item>
+    </string-array>
+
+    <string-array name="child0">
+        <item>subagent name</item>
+        <item>customer name</item>
+        <item>ticket</item>
+        <item>price</item>
+        <item>quantity</item>
+        <item>total</item>
+    </string-array>
+
+    <string-array name="child1">
+        <item>subagent name1</item>
+        <item>customer name1</item>
+        <item>ticket1</item>
+        <item>price1</item>
+        <item>quantity1</item>
+        <item>total1</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<view-->
+        <!--android:id="@+id/view5"-->
+        <!--class="android.support.constraint.ConstraintLayout"-->
+        <!--id="@+id/view4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="34dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/winners_report_header"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/subagent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="SubAgent"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/customer"
+        app:layout_constraintEnd_toStartOf="@+id/customer"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ticket"
+        app:layout_constraintEnd_toStartOf="@+id/ticket"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/subagent" />
+
+    <TextView
+        android:id="@+id/ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABC-123"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/price"
+        app:layout_constraintEnd_toStartOf="@+id/price"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/customer" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/quantity"
+        app:layout_constraintEnd_toStartOf="@+id/quantity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ticket" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="999"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/total"
+        app:layout_constraintEnd_toStartOf="@+id/total"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/price" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="123456"
+        android:textSize="12sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/quantity"
+       />
+
+</android.support.constraint.ConstraintLayout>

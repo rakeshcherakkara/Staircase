@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd"
+    tools:layout_editor_absoluteY="81dp">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffd" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/flamingo_dashboard_header" />
+
+    <TextView
+        android:id="@+id/WelcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="WELCOME:"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:layout_editor_absoluteX="123dp" />
+
+    <TextView
+        android:id="@+id/AgentNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:text="AGENT"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/WelcomeTextView"
+        app:layout_constraintStart_toEndOf="@+id/WelcomeTextView" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="271dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="395dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="470dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="545dp" />
+
+    <Button
+        android:id="@+id/SaleButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_drawable"
+        android:text="Sale"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/Widget.AppCompat.Button.Colored"
+        app:layout_constraintBottom_toTopOf="@+id/ResultReportButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SaleReportButtom"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_drawable"
+        android:text="Sale Report"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/AmountWiseReportButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/WinningReportButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_drawable"
+        android:text="Winning Report"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/AdminPayReportButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/ResultReportButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_drawable"
+        android:text="Result Report"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/SubagentPayButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/AmountWiseReportButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_drawable"
+        android:text="Amountwise Report"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/SunagentPayReportButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/AdminPayReportButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_drawable"
+        android:text="Payment Report (Admin)"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/CreateSubAgentButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/SunagentPayReportButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_drawable"
+        android:text="Payment Report (SUB-Agent)"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/SubagentPayButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_drawable"
+        android:text="SUb Agent Payment"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CreateSubAgentButton"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_drawable"
+        android:text="Create Sub Agent"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+</android.support.constraint.ConstraintLayout>

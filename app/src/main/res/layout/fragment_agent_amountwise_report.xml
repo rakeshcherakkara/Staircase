@@ -1,0 +1,121 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="pqr.com.staircase.AgentAmountwiseReportFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--android:background="@color/colorAccent" -->
+
+   <ExpandableListView
+       android:id="@+id/agent_amountwise_listview"
+       android:layout_width="0dp"
+       android:layout_height="413dp"
+       android:layout_marginBottom="8dp"
+       android:groupIndicator="@null"
+       app:layout_constraintBottom_toBottomOf="parent"
+
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent" />
+
+   <TextView
+       android:id="@+id/textView6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="8dp"
+       android:text="From Date"
+       android:textSize="12sp"
+       android:textStyle="bold"
+       app:layout_constraintBaseline_toBaselineOf="@+id/fromDate"
+       app:layout_constraintEnd_toStartOf="@+id/fromDate"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent" />
+
+   <EditText
+       android:id="@+id/fromDate"
+       android:layout_width="78dp"
+       android:layout_height="35dp"
+       android:ems="10"
+       android:inputType="textPersonName"
+       android:text="2018-10-01"
+       android:textSize="12sp"
+       android:focusable="false"
+       app:layout_constraintBaseline_toBaselineOf="@+id/textView26"
+       app:layout_constraintEnd_toStartOf="@+id/textView26"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+   <TextView
+       android:id="@+id/textView26"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="8dp"
+       android:text="To Date"
+       android:textSize="12sp"
+       android:textStyle="bold"
+       app:layout_constraintBaseline_toBaselineOf="@+id/toDate"
+       app:layout_constraintEnd_toStartOf="@+id/toDate"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toEndOf="@+id/fromDate" />
+
+   <EditText
+       android:id="@+id/toDate"
+       android:layout_width="72dp"
+       android:layout_height="33dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginTop="8dp"
+       android:ems="10"
+       android:inputType="textPersonName"
+       android:text="2018-01-01"
+       android:textSize="12sp"
+       android:focusable="false"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toEndOf="@+id/textView26"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Spinner
+       android:id="@+id/productSpinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="8dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="24dp"
+       android:layout_marginTop="8dp"
+       app:layout_constraintBottom_toTopOf="@+id/winnersReportButton"
+       app:layout_constraintEnd_toStartOf="@+id/subagentSpinner"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/fromDate" />
+
+   <Spinner
+       android:id="@+id/subagentSpinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="8dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="8dp"
+       android:layout_marginTop="8dp"
+       app:layout_constraintBottom_toTopOf="@+id/winnersReportButton"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toEndOf="@+id/productSpinner"
+       app:layout_constraintTop_toBottomOf="@+id/toDate" />
+
+   <Button
+       android:id="@+id/winnersReportButton"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="8dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginStart="8dp"
+       android:text="Generate"
+       app:layout_constraintBottom_toTopOf="@+id/agent_amountwise_listview"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
